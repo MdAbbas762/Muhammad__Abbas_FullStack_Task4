@@ -1,20 +1,14 @@
 # 🌐Creative Web Demo - Full-Stack Task 4  
 
----
-
 ## Enhanced Landing Page With Backend Integration  
 
 ## 📌 Project Overview  
-This task is part of my ongoing **Full-Stack Internship at CoreTech Innovations**.  
-The goal was to improve the landing page created in **Task 3** by adding new front-end interactions, backend functionality, and database connectivity.  
-This upgrade focuses on making the page more interactive, responsive, and fully connected to a working backend system that processes and stores form submissions.  
+This task is part of my ongoing **Full-Stack Internship at CoreTech Innovations**. The goal was to improve the landing page created in **Task 3** by adding new front-end interactions, animations, transitions, layouts while keeping backend functionality, and database connectivity. This upgrade focuses on making the page more interactive, responsive, and fully connected to a working backend system that processes and stores form submissions.  
 
 ---
 
 ## 🎯 Purpose  
-The purpose of this task was to continue practicing full-stack development by enhancing an existing project.  
-This includes improving UI behavior, handling form data properly, creating backend routes, and saving user information in a database.  
-The task helps strengthen the understanding of how the front-end, backend, and database work together in a simple full-stack workflow.  
+The purpose of this task was to continue practicing full-stack development by enhancing an existing project. This includes improving UI behavior, handling form data properly, creating backend routes, and saving user information in a database. The task helps strengthen the understanding of how the front-end, backend, and database work together in a simple full-stack workflow. Now it isn't about just a simple form handling at bakend but a complete simple website giving full understanding of how frontend and backend connection works in real projects.
 
 ---  
 
@@ -80,7 +74,7 @@ The backend handles:
 - Database connection  
 - POST `/submit` route for storing messages  
 
-Files:  
+## 📃 Files:  
 - `server.js` (main backend file)  
 - `success.html` and `fail.html` for responses  
 
@@ -104,6 +98,6 @@ Files:
 
 ![Screenshot 8](./Screenshots/ss8.PNG)  
 
-![Screenshot 9](./Screenshots/ss19.PNG)  
+![Screenshot 9](./Screenshots/ss9.PNG)  
 
 ![Screenshot 10](./Screenshots/ss10.PNG)  
