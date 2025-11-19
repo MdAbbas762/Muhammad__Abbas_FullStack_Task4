@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>PixelForge - Crafting digital solutions</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="top-section">
+            <h1>Pixel<span>Forge</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero-section" id="hero">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="/videos/bg_video.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-content">
+                <h1>Transforming Ideas into Digital Excellence</h1>
+                <p>From concept to launch, we craft digital solutions that help brands grow, connect, and shine online.
+                </p>
+                <button><a href="#contact">Get in Touch</a></button>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <h2>About Us</h2>
+            <div class="about-section-content">
+                <img src="/images/about-img.jpg" alt="about">
+                <p>At PixelForge, we believe in creating digital solutions that make a real difference. Our team blends
+                    design, development, and strategy to build websites, apps, and campaigns that not only look great
+                    but also perform exceptionally. We focus on understanding your goals, connecting with your audience,
+                    and delivering results that drive growth and strengthen your brand in the online space. Innovation,
+                    quality, and collaboration are at the heart of everything we do.</p>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <h2>Services</h2>
+            <div class="services-container">
+                <div class="card card1">
+                    <div>🌐</div>
+                    <h3> Web Development</h3>
+                    <p>Modern, responsive websites built to grow your brand.</p>
+                </div>
+
+                <div class="card card2">
+                    <div>📱</div>
+                    <h3>Mobile App Development</h3>
+                    <p>Seamless apps for iOS and Android that engage users.</p>
+                </div>
+
+                <div class="card card3">
+                    <div>🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive designs that create memorable user experiences.</p>
+                </div>
+
+                <div class="card card4">
+                    <div>🛒</div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Robust online stores optimized for sales and conversions.</p>
+                </div>
+
+                <div class="card card5">
+                    <div>📈</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategies that amplify your reach and boost visibility.</p>
+                </div>
+
+                <div class="card card6">
+                    <div>🔧</div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Keep your websites and apps updated, smooth, and error-free.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Enter your name</label>
+                <input type="text" name="username" id="name" placeholder="Type here...">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" id="email" placeholder="Type here...">
+                <label for="message">Enter your message</label>
+                <textarea name="message" id="message" placeholder="Type here..." rows="4" cols="50"></textarea>
+                <button type="submit" id="btn">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#" title="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+            </div>
+            <p>&copy; PixelForge 2025. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="/Scripts/script.js"></script>
+</body>
+
+</html>
